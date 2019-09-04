@@ -1,0 +1,29 @@
+#chat_output {
+  width:100%;
+  height: 100%;
+  background-color: #FFFFFF;
+}
+#chat_input {
+  position:absolute;
+  bottom:0;
+  left:0;
+  padding:.5rem;
+  width:100%;
+  height: 20%;
+  border:1px solid #ccc;
+  background-color: #ccc;
+}
+
+#head {
+  background-color: purple;
+  color: white;
+  width: 100%;
+  padding: 2%;
+  margin: 0px;
+  z-index: -1000;
+}
+#chatBox {
+  overflow-y: scroll;
+  overflow-x: visible;
+  height: 26.68rem;
+}
